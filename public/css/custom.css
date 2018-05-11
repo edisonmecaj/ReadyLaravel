@@ -1,0 +1,200 @@
+.navbar {
+	border-radius: 0;
+}
+
+.page-title {
+	margin: 0 0 10px 0;
+}
+
+.btn-wide {
+	padding: 6px 50px;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}
+
+.navbar li a {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.dropdown-toggle {
+	cursor: pointer;
+}
+
+.navbar ul li .row [class*=col-] {
+	padding: 0;
+}
+
+.invalid-feedback {
+	color: red;
+}
+
+table.table-justified {
+	table-layout: fixed;
+}
+
+.table.table-centered > tbody > tr > td, 
+.table.table-centered > tbody > tr > th, 
+.table.table-centered > tfoot > tr > td, 
+.table.table-centered > tfoot > tr > th, 
+.table.table-centered > thead > tr > td, 
+.table.table-centered > thead > tr > th,
+.table.table-centered > tbody > tr > td > input, 
+.table.table-centered > tbody > tr > th > input, 
+.table.table-centered > tfoot > tr > td > input, 
+.table.table-centered > tfoot > tr > th > input, 
+.table.table-centered > thead > tr > td > input, 
+.table.table-centered > thead > tr > th > input{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table-compact > tbody > tr > td,
+.table-compact > tbody > tr > th {
+	padding: 0;
+}
+
+.mb-5 {
+	margin-bottom: 5px;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.mw100 {
+	max-width: 100%;
+}
+
+.navbar-nav>.user-menu .user-image {
+	float: left;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top: -2px;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+	padding: 10px;
+	text-align: center;
+}
+
+.navbar li.user-header {
+	background-color: #3c8dbc;
+}
+
+.user-menu .dropdown-menu {
+	background-color: transparent;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	padding: 1px 0 0 0;
+	border-top-width: 0;
+	min-width: 280px;
+}
+
+.navbar-right .user-menu .dropdown-menu {
+	right: 3px;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
+	z-index: 5;
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>a,
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>a:hover{
+	background-color: transparent;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header img {
+	z-index: 5;
+	height: 90px;
+	width: 90px;
+	border: 3px solid;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	border-color: transparent;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+	text-align: center;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+
+.profile-picture .profile-pic-container {
+	position: relative;
+    max-width: 100%;
+}
+
+.profile-picture .image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.profile-picture .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+    background-color: white;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.profile-picture:hover .overlay {
+	opacity: 0.8;
+}
+
+.profile-picture .text {
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.thin{
+    font-weight: 200;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.b1{ border: 1px solid #bbb; }
+.bb2{ border-bottom: 2px solid #bbb; }
