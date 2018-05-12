@@ -16,7 +16,7 @@ class Role extends Model
     }
 
     public function Tiles(){
-        return $this->hasMany(Tile::class);
+        return $this->belongsToMany(Tile::class, "roles_tiles");
     }
 
     public function getLabelTransAttribute(){
