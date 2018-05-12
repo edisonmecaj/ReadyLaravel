@@ -198,3 +198,22 @@ table.table-justified {
 
 .b1{ border: 1px solid #bbb; }
 .bb2{ border-bottom: 2px solid #bbb; }
+
+.tile{
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.tile .tile-icon{
+    font-size: 6em;
+    margin: 20px 0 20px 0;
+}
+
+.tile .tile-title{
+    display: block;
+    font-size: 2em;
+    background: rgba(255, 255, 255, 0.2);
+}
