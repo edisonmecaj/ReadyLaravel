@@ -1,10 +1,12 @@
 @extends('layouts.app', ["title" => $title])
 @section("styles")
 	<link rel="stylesheet" href="{{ asset('vendors/iconpicker/dist/css/bootstrap-iconpicker.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('vendors/bootstrap-select/dist/css/bootstrap-select.css') }}">
 @endsection
 @section('scripts')
 	<script src="{{ asset('vendors/iconpicker/src/js/iconset/iconset-fa5-all.js') }}"></script>
 	<script src="{{ asset('vendors/iconpicker/dist/js/bootstrap-iconpicker.js') }}"></script>
+	<script src="{{ asset('vendors/bootstrap-select/dist/js/bootstrap-select.js') }}"></script>	  
 @endsection
 @section('content')
 @include("messages")
@@ -70,12 +72,24 @@
 					@if ($errors->has('icon'))<span class="invalid-feedback"><strong>{{ $errors->first('icon') }}</strong></span>@endif
 				</div>
 			</div>
+				
+			<div class="form-group">
+				{!! Form::label("roles", __("Roles"), ["class" => "col-sm-3 text-right control-label"]) !!}
+				<div class="col-sm-9">
+					{!! Form::select("roles[]", \App\Role::pluck("label", "id"), null, ["class" => "form-control selectpicker", "multiple" => true, "title" => __("Select Roles...")]) !!}
+					@if ($errors->has('roles'))<span class="invalid-feedback"><strong>{{ $errors->first('roles') }}</strong></span>@endif
+				</div>
+			</div>
 
 			<div class="form-group">
-				{!! Form::label("counter", __("Counter"), ["class" => "col-sm-3 text-right control-label"]) !!}
+				<div class="col-sm-3 text-right">
+					{!! Form::label("counter", __("Counter"), ["class" => "control-label"]) !!}
+					<br>
+					<small class="text-muted">PHP</small>
+				</div>
 				<div class="col-sm-9">
 					{!! Form::textarea("counter", null, ["class" => "form-control", "autocomplete" => "off"]) !!}
-					<small class="text-muted">Query or PHP</small>
+					
 					@if ($errors->has('counter'))<span class="invalid-feedback"><strong>{{ $errors->first('counter') }}</strong></span>@endif
 				</div>
 			</div>
@@ -95,6 +109,11 @@
 			{!! Form::close() !!}
 		</div>
 	</div>
+	{{-- <div class="row"> --}}
+		{{-- <div class="col-xs-12"> --}}
+			{{-- <div id="map" style="height: 500px;"></div> --}}
+		{{-- </div> --}}
+	{{-- </div> --}}
 @endsection
 
 @section('script')
@@ -115,5 +134,22 @@
 		}).change(function(e){
 			$("input[name='icon']").val(e.icon);
 		});
+		
+		// var map;
+		// function initMap() {
+		// 	map = new google.maps.Map(document.getElementById('map'), {
+		// 		center: {lat: 41.334742, lng: 19.780784},
+		// 		zoom: 16
+		// 	});
+		// 	var marker = new google.maps.Marker({
+		// 		position: {lat: 41.334742, lng: 19.780784},
+	    // 	    map: map   ,
+    	// 		draggable: true
+	    //     });
+		// 	marker.addListener('dragend', function(e){
+		// 		console.log(e.latLng.lat() + " - " + e.latLng.lng());
+		// 	});
+		// }
 	</script>
+	{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVxDarxi3Ford9UgPy4cjtpr2vTrDVDJk&callback=initMap" async defer></script> --}}
 @endsection

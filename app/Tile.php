@@ -16,9 +16,17 @@ class Tile extends Model
 
     public function getValueAttribute(){
         if(!empty($this->counter)){
-            $ev = trim($this->counter, ';').';';
-            return eval("return $ev");
+            try{
+                $ev = trim($this->counter, ';').';';
+                return eval("return $ev");
+            }
+            catch(\Exception $e)
+            {
+                return "";
+            }
         }
-        return 0;
+        return "";
     }
 }
+
+

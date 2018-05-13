@@ -25,7 +25,8 @@ class TileController extends Controller
     }
 
     public function create(TileRequest $req){
-        Tile::create($req->all());
+        $tile = Tile::create($req->all());
+        $tile->Roles()->sync($req->roles);
         return redirect("tiles")->with("success_message", __("Tile created successfully"));
     }
 
@@ -36,6 +37,7 @@ class TileController extends Controller
 
     public function update(Tile $tile, TileRequest $req){
         $tile->update($req->all());
+        $tile->Roles()->sync($req->roles);
         return redirect("tiles")->with("success_message", __("Tile modified successfully"));
     }
 
