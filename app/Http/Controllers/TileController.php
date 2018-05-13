@@ -49,4 +49,12 @@ class TileController extends Controller
         $tile->delete();
         return redirect("tiles")->with("success_message", __("Tile deleted successfully"));
     }
+
+    public function left(Tile $tile){
+        $prev = Tile::where("sort", "<", $tile->sort);
+    }
+
+    public function right(Tile $tile){
+
+    }
 }

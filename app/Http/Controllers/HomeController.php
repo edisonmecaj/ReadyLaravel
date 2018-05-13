@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $tiles = Auth::user()->Role->Tiles;
+        $tiles = Auth::user()->Role->Tiles()->orderBy("sort", "asc")->get();
         return view('home', compact('tiles'));
     }
 }

@@ -274,9 +274,9 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 32,
                 'lang_id' => 2,
                 'key' => 'User Management',
-                'val' => 'Menaxhimi i Perdoruesve',
+                'val' => 'Administrimi i Perdoruesve',
                 'created_at' => '2018-05-10 11:18:31',
-                'updated_at' => '2018-05-11 07:57:05',
+                'updated_at' => '2018-05-13 20:56:58',
             ),
             29 => 
             array (
@@ -2617,6 +2617,420 @@ class LangsWordsTableSeeder extends Seeder
                 'val' => 'Repeat New eMail',
                 'created_at' => '2018-05-11 11:03:42',
                 'updated_at' => '2018-05-11 11:03:42',
+            ),
+            289 => 
+            array (
+                'id' => 525,
+                'lang_id' => 1,
+                'key' => 'Tiles',
+                'val' => 'Schede',
+                'created_at' => '2018-05-12 12:54:17',
+                'updated_at' => '2018-05-12 12:54:43',
+            ),
+            290 => 
+            array (
+                'id' => 526,
+                'lang_id' => 2,
+                'key' => 'Tiles',
+                'val' => 'Skeda',
+                'created_at' => '2018-05-12 12:54:17',
+                'updated_at' => '2018-05-12 12:54:55',
+            ),
+            291 => 
+            array (
+                'id' => 527,
+                'lang_id' => 4,
+                'key' => 'Tiles',
+                'val' => 'Tiles',
+                'created_at' => '2018-05-12 12:54:18',
+                'updated_at' => '2018-05-12 12:54:18',
+            ),
+            292 => 
+            array (
+                'id' => 528,
+                'lang_id' => 2,
+                'key' => 'Developer',
+                'val' => 'Programues',
+                'created_at' => '2018-05-12 12:55:01',
+                'updated_at' => '2018-05-12 12:55:40',
+            ),
+            293 => 
+            array (
+                'id' => 529,
+                'lang_id' => 4,
+                'key' => 'Developer',
+                'val' => 'Developer',
+                'created_at' => '2018-05-12 12:55:01',
+                'updated_at' => '2018-05-12 12:55:01',
+            ),
+            294 => 
+            array (
+                'id' => 533,
+                'lang_id' => 1,
+                'key' => 'URL',
+                'val' => 'URL',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 20:07:45',
+            ),
+            295 => 
+            array (
+                'id' => 534,
+                'lang_id' => 2,
+                'key' => 'URL',
+                'val' => 'URL',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            296 => 
+            array (
+                'id' => 535,
+                'lang_id' => 4,
+                'key' => 'URL',
+                'val' => 'URL',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 18:55:25',
+            ),
+            297 => 
+            array (
+                'id' => 536,
+                'lang_id' => 1,
+                'key' => 'Color',
+                'val' => 'Colore',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 20:07:45',
+            ),
+            298 => 
+            array (
+                'id' => 537,
+                'lang_id' => 2,
+                'key' => 'Color',
+                'val' => 'Ngjyra',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            299 => 
+            array (
+                'id' => 538,
+                'lang_id' => 4,
+                'key' => 'Color',
+                'val' => 'Color',
+                'created_at' => '2018-05-13 18:55:25',
+                'updated_at' => '2018-05-13 18:55:25',
+            ),
+            300 => 
+            array (
+                'id' => 539,
+                'lang_id' => 1,
+                'key' => 'Add new Tile',
+                'val' => 'Aggiungi nuova Scheda',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:08:11',
+            ),
+            301 => 
+            array (
+                'id' => 540,
+                'lang_id' => 2,
+                'key' => 'Add new Tile',
+                'val' => 'Shto Skedë',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            302 => 
+            array (
+                'id' => 541,
+                'lang_id' => 4,
+                'key' => 'Add new Tile',
+                'val' => 'Add new Tile',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:06:57',
+            ),
+            303 => 
+            array (
+                'id' => 542,
+                'lang_id' => 1,
+                'key' => 'Tiles Management',
+                'val' => 'Gestione Schede',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:07:45',
+            ),
+            304 => 
+            array (
+                'id' => 543,
+                'lang_id' => 2,
+                'key' => 'Tiles Management',
+                'val' => 'Administrimi i Skeda-ve',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:56:58',
+            ),
+            305 => 
+            array (
+                'id' => 544,
+                'lang_id' => 4,
+                'key' => 'Tiles Management',
+                'val' => 'Tiles Management',
+                'created_at' => '2018-05-13 20:06:57',
+                'updated_at' => '2018-05-13 20:06:57',
+            ),
+            306 => 
+            array (
+                'id' => 545,
+                'lang_id' => 1,
+                'key' => 'Tickets',
+                'val' => 'Difetti',
+                'created_at' => '2018-05-13 20:16:25',
+                'updated_at' => '2018-05-13 20:16:39',
+            ),
+            307 => 
+            array (
+                'id' => 546,
+                'lang_id' => 2,
+                'key' => 'Tickets',
+                'val' => 'Defektet',
+                'created_at' => '2018-05-13 20:16:25',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            308 => 
+            array (
+                'id' => 547,
+                'lang_id' => 4,
+                'key' => 'Tickets',
+                'val' => 'Tickets',
+                'created_at' => '2018-05-13 20:16:25',
+                'updated_at' => '2018-05-13 20:16:25',
+            ),
+            309 => 
+            array (
+                'id' => 548,
+                'lang_id' => 1,
+                'key' => 'Clients',
+                'val' => 'Clienti',
+                'created_at' => '2018-05-13 20:25:20',
+                'updated_at' => '2018-05-13 20:50:49',
+            ),
+            310 => 
+            array (
+                'id' => 549,
+                'lang_id' => 2,
+                'key' => 'Clients',
+                'val' => 'Klientat',
+                'created_at' => '2018-05-13 20:25:20',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            311 => 
+            array (
+                'id' => 550,
+                'lang_id' => 4,
+                'key' => 'Clients',
+                'val' => 'Clients',
+                'created_at' => '2018-05-13 20:25:20',
+                'updated_at' => '2018-05-13 20:25:20',
+            ),
+            312 => 
+            array (
+                'id' => 551,
+                'lang_id' => 1,
+                'key' => 'Edit Tile',
+                'val' => 'Modifica Scheda',
+                'created_at' => '2018-05-13 20:36:49',
+                'updated_at' => '2018-05-13 20:50:49',
+            ),
+            313 => 
+            array (
+                'id' => 552,
+                'lang_id' => 2,
+                'key' => 'Edit Tile',
+                'val' => 'Ndrysho Skeden',
+                'created_at' => '2018-05-13 20:36:49',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            314 => 
+            array (
+                'id' => 553,
+                'lang_id' => 4,
+                'key' => 'Edit Tile',
+                'val' => 'Edit Tile',
+                'created_at' => '2018-05-13 20:36:49',
+                'updated_at' => '2018-05-13 20:36:49',
+            ),
+            315 => 
+            array (
+                'id' => 554,
+                'lang_id' => 1,
+                'key' => 'Tile modified successfully',
+                'val' => 'Scheda modificata con successo',
+                'created_at' => '2018-05-13 20:45:32',
+                'updated_at' => '2018-05-13 20:50:49',
+            ),
+            316 => 
+            array (
+                'id' => 555,
+                'lang_id' => 2,
+                'key' => 'Tile modified successfully',
+                'val' => 'Skeda u ndryshua me sukses',
+                'created_at' => '2018-05-13 20:45:32',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            317 => 
+            array (
+                'id' => 556,
+                'lang_id' => 4,
+                'key' => 'Tile modified successfully',
+                'val' => 'Tile modified successfully',
+                'created_at' => '2018-05-13 20:45:32',
+                'updated_at' => '2018-05-13 20:45:32',
+            ),
+            318 => 
+            array (
+                'id' => 560,
+                'lang_id' => 1,
+                'key' => 'Counter',
+                'val' => 'Contatore',
+                'created_at' => '2018-05-13 20:48:01',
+                'updated_at' => '2018-05-13 20:50:49',
+            ),
+            319 => 
+            array (
+                'id' => 561,
+                'lang_id' => 2,
+                'key' => 'Counter',
+                'val' => 'Numeratori',
+                'created_at' => '2018-05-13 20:48:01',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            320 => 
+            array (
+                'id' => 562,
+                'lang_id' => 4,
+                'key' => 'Counter',
+                'val' => 'Counter',
+                'created_at' => '2018-05-13 20:48:01',
+                'updated_at' => '2018-05-13 20:48:01',
+            ),
+            321 => 
+            array (
+                'id' => 563,
+                'lang_id' => 2,
+                'key' => 'Do you want to delete the menu ',
+                'val' => 'Deshironi te fshini menu-në',
+                'created_at' => '2018-05-13 20:49:48',
+                'updated_at' => '2018-05-13 20:55:22',
+            ),
+            322 => 
+            array (
+                'id' => 564,
+                'lang_id' => 4,
+                'key' => 'Do you want to delete the menu ',
+                'val' => 'Do you want to delete the menu ',
+                'created_at' => '2018-05-13 20:49:48',
+                'updated_at' => '2018-05-13 20:49:48',
+            ),
+            323 => 
+            array (
+                'id' => 565,
+                'lang_id' => 1,
+                'key' => 'Tile created successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:09:00',
+                'updated_at' => '2018-05-13 21:09:00',
+            ),
+            324 => 
+            array (
+                'id' => 566,
+                'lang_id' => 2,
+                'key' => 'Tile created successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:09:01',
+                'updated_at' => '2018-05-13 21:09:01',
+            ),
+            325 => 
+            array (
+                'id' => 567,
+                'lang_id' => 4,
+                'key' => 'Tile created successfully',
+                'val' => 'Tile created successfully',
+                'created_at' => '2018-05-13 21:09:01',
+                'updated_at' => '2018-05-13 21:09:01',
+            ),
+            326 => 
+            array (
+                'id' => 568,
+                'lang_id' => 1,
+                'key' => 'Employees',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:11:29',
+                'updated_at' => '2018-05-13 21:11:29',
+            ),
+            327 => 
+            array (
+                'id' => 569,
+                'lang_id' => 2,
+                'key' => 'Employees',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:11:29',
+                'updated_at' => '2018-05-13 21:11:29',
+            ),
+            328 => 
+            array (
+                'id' => 570,
+                'lang_id' => 4,
+                'key' => 'Employees',
+                'val' => 'Employees',
+                'created_at' => '2018-05-13 21:11:29',
+                'updated_at' => '2018-05-13 21:11:29',
+            ),
+            329 => 
+            array (
+                'id' => 571,
+                'lang_id' => 1,
+                'key' => 'User created successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:11:54',
+                'updated_at' => '2018-05-13 21:11:54',
+            ),
+            330 => 
+            array (
+                'id' => 572,
+                'lang_id' => 2,
+                'key' => 'User created successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:11:54',
+                'updated_at' => '2018-05-13 21:11:54',
+            ),
+            331 => 
+            array (
+                'id' => 573,
+                'lang_id' => 4,
+                'key' => 'User created successfully',
+                'val' => 'User created successfully',
+                'created_at' => '2018-05-13 21:11:54',
+                'updated_at' => '2018-05-13 21:11:54',
+            ),
+            332 => 
+            array (
+                'id' => 574,
+                'lang_id' => 1,
+                'key' => 'Role modified successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:13:42',
+                'updated_at' => '2018-05-13 21:13:42',
+            ),
+            333 => 
+            array (
+                'id' => 575,
+                'lang_id' => 2,
+                'key' => 'Role modified successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-13 21:13:42',
+                'updated_at' => '2018-05-13 21:13:42',
+            ),
+            334 => 
+            array (
+                'id' => 576,
+                'lang_id' => 4,
+                'key' => 'Role modified successfully',
+                'val' => 'Role modified successfully',
+                'created_at' => '2018-05-13 21:13:42',
+                'updated_at' => '2018-05-13 21:13:42',
             ),
         ));
         

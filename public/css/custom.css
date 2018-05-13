@@ -235,3 +235,11 @@ table.table-justified {
 	right: 0;
 	left: 0;
 }
+
+.tile-edit-row{
+	padding: 0 15px 0 15px;
+}
+
+.tile-edit-row [class*=col-]{
+	padding: 0;
+}

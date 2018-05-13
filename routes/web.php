@@ -97,4 +97,6 @@ Route::middleware(["auth", "admin"])->prefix("tiles")->group(function(){
     Route::post('/{tile}/edit', 'TileController@update');
     Route::get('/{tile}/delete', 'TileController@delete');
     Route::post('/{tile}/delete', 'TileController@destroy');
+    Route::get('/{tile}/left', 'TileController@left');
+    Route::get('/{tile}/right', 'TileController@right');
 });

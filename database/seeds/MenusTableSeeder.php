@@ -27,7 +27,7 @@ class MenusTableSeeder extends Seeder
                 'right' => 0,
                 'sort' => 0,
                 'created_at' => '2018-05-02 16:44:12',
-                'updated_at' => '2018-05-10 07:37:43',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
             1 => 
             array (
@@ -37,9 +37,9 @@ class MenusTableSeeder extends Seeder
                 'icon' => 'fas fa-cogs',
                 'parent' => NULL,
                 'right' => 1,
-                'sort' => 0,
+                'sort' => 1,
                 'created_at' => '2018-05-02 16:49:01',
-                'updated_at' => '2018-05-10 07:37:43',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
             2 => 
             array (
@@ -49,9 +49,9 @@ class MenusTableSeeder extends Seeder
                 'icon' => 'fas fa-users',
                 'parent' => 2,
                 'right' => 1,
-                'sort' => 2,
+                'sort' => 0,
                 'created_at' => '2018-05-02 16:49:29',
-                'updated_at' => '2018-05-10 07:37:43',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
             3 => 
             array (
@@ -59,11 +59,11 @@ class MenusTableSeeder extends Seeder
                 'label' => 'Menus',
                 'url' => 'menus',
                 'icon' => 'fas fa-indent',
-                'parent' => 2,
+                'parent' => 9,
                 'right' => 1,
                 'sort' => 0,
                 'created_at' => '2018-05-07 09:33:51',
-                'updated_at' => '2018-05-10 07:37:43',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
             4 => 
             array (
@@ -71,11 +71,11 @@ class MenusTableSeeder extends Seeder
                 'label' => 'Roles',
                 'url' => 'roles',
                 'icon' => 'fas fa-shield-alt',
-                'parent' => 2,
+                'parent' => 9,
                 'right' => 1,
-                'sort' => 1,
+                'sort' => 2,
                 'created_at' => '2018-05-08 09:46:49',
-                'updated_at' => '2018-05-10 07:37:43',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
             5 => 
             array (
@@ -83,11 +83,35 @@ class MenusTableSeeder extends Seeder
                 'label' => 'Languages',
                 'url' => 'langs',
                 'icon' => 'far fa-flag',
-                'parent' => 2,
+                'parent' => 9,
                 'right' => 1,
                 'sort' => 3,
                 'created_at' => '2018-05-10 07:37:36',
-                'updated_at' => '2018-05-10 07:38:36',
+                'updated_at' => '2018-05-12 12:54:17',
+            ),
+            6 => 
+            array (
+                'id' => 8,
+                'label' => 'Tiles',
+                'url' => 'tiles',
+                'icon' => 'fas fa-th-large',
+                'parent' => 9,
+                'right' => 1,
+                'sort' => 1,
+                'created_at' => '2018-05-12 12:53:22',
+                'updated_at' => '2018-05-12 12:54:17',
+            ),
+            7 => 
+            array (
+                'id' => 9,
+                'label' => 'Developer',
+                'url' => NULL,
+                'icon' => 'fas fa-code',
+                'parent' => NULL,
+                'right' => 1,
+                'sort' => 0,
+                'created_at' => '2018-05-12 12:53:56',
+                'updated_at' => '2018-05-12 12:54:17',
             ),
         ));
         

@@ -20,6 +20,7 @@ class CreateTilesTable extends Migration
             $table->string("color");
             $table->string("icon");
             $table->text("counter")->nullable();
+            $table->integer("sort")->default(0);
             $table->timestamps();
         });
     }
