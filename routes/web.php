@@ -87,3 +87,14 @@ Route::middleware(["auth", "admin"])->prefix("langs")->group(function(){
     Route::get('/{lang}/translate', 'LangController@missingTranslations');
     Route::post('/{lang}/translate', 'LangController@updateTranslations');
 });
+
+Route::middleware(["auth", "admin"])->prefix("tiles")->group(function(){
+    Route::get('/', 'TileController@index')->name('tiles');
+    Route::post('/', 'TileController@reorder');
+    Route::get('/add', 'TileController@add');
+    Route::post('/add', 'TileController@create');
+    Route::get('/{tile}/edit', 'TileController@edit');
+    Route::post('/{tile}/edit', 'TileController@update');
+    Route::get('/{tile}/delete', 'TileController@delete');
+    Route::post('/{tile}/delete', 'TileController@destroy');
+});

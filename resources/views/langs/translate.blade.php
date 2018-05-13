@@ -23,10 +23,11 @@
 				@foreach($unmapped as $tr)
 				<tr>
 					<td>
-						{!! Form::textarea("key[]", $tr->key, ["class" => "form-control", "readonly" => true, "rows" => 2]) !!}						
+						<span class="bold">`{{ $tr->key }}`</span>
+						{!! Form::hidden("key[]", $tr->key, ["class" => "form-control", "readonly" => true, "rows" => 2]) !!}						
 					</td>
 					<td>
-						{!! Form::textarea("val[]", null, ["class" => "form-control", "rows" => 2]) !!}
+						{!! Form::text("val[]", null, ["class" => "form-control", "autocomplete" => "off", "rows" => 2]) !!}
 					</td>
 				</tr>
 				@endforeach
@@ -34,10 +35,11 @@
 				@foreach($mapped as $k => $tr)
 				<tr>
 					<td>
-						{!! Form::textarea("key[]", $k, ["class" => "form-control", "readonly" => true, "rows" => 2]) !!}
+						<span class="bold">`{{ $k }}`</span>
+						{!! Form::hidden("key[]", $k, ["class" => "form-control", "readonly" => true, "rows" => 2]) !!}
 					</td>	
 					<td>
-						{!! Form::textarea("val[]", $tr, ["class" => "form-control", "rows" => 2]) !!}
+						{!! Form::text("val[]", $tr, ["class" => "form-control", "autocomplete" => "off", "rows" => 2]) !!}
 					</td>
 				</tr>
 				@endforeach

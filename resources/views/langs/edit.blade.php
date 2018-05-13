@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="{{ asset('vendors/iconpicker/dist/css/bootstrap-iconpicker.min.css') }}">
 @endsection
 @section('scripts')
-<script src="{{ asset('vendors/iconpicker/dist/js/bootstrap-iconpicker-iconset-all.min.js') }}"></script>
+	<script src="{{ asset('vendors/iconpicker/dist/js/bootstrap-iconpicker-iconset-all.min.js') }}"></script>
 	<script src="{{ asset('vendors/iconpicker/dist/js/bootstrap-iconpicker.min.js') }}"></script>
 @endsection
 @section('content')

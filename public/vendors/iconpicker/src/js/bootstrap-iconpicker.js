@@ -28,6 +28,7 @@
     // ==============================
     Iconpicker.ICONSET = {
         _custom: null,
+        fa5: $.iconset_fa5 || Iconpicker.ICONSET_EMPTY,
         elusiveicon: $.iconset_elusiveicon || Iconpicker.ICONSET_EMPTY,
         flagicon: $.iconset_flagicon || Iconpicker.ICONSET_EMPTY,
         fontawesome: $.iconset_fontawesome || Iconpicker.ICONSET_EMPTY,
@@ -223,7 +224,7 @@
             var tr = $('<tr></tr>');
             for (var j = 0; j < op.cols; j++) {
                 var pos = offset + (i * op.cols) + j;
-                var btn = $('<button class="btn ' + op.unselectedClass + ' btn-icon"></button>').hide();
+                var btn = $('<button class="btn ' + op.unselectedClass + ' btn-icon ' + op.btnClass + '"></button>').hide();
                 if (pos < op.icons.length) {
                     var v = op.iconClassFix + op.icons[pos];
                     btn.val(v).attr('title', v).append('<i class="' + op.iconClass + ' ' + v + '"></i>').show();
