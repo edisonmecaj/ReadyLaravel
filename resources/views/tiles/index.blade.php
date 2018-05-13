@@ -16,6 +16,15 @@
 
 @section("script")
 	<script>
-		
+		$(".btn-move").click(function(){
+			var dir = $(this).attr("dir");
+			$this = $(this).parent(".tile-col");
+			$old = $this.clone();
+			if(dir == "right"){
+				$next = $(this).next(".tile-col").clone();
+				$this.replaceWith($next);
+				$this.next(".tile-col").replaceWith($old);
+			}
+		});
 	</script>
 @endsection

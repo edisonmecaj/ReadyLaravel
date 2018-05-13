@@ -13,10 +13,10 @@
     </a>
     @isset($edit)
     <div class="btn-group btn-group-justified" role="group">
-        <a class="btn btn-default btn-move-left"><i class="fas fa-chevron-left"></i></a>
+        <a class="btn btn-default btn-move" dir="left"><i class="fas fa-chevron-left"></i></a>
         <a href="{{ url('tiles/'.$tile->id.'/edit') }}" class="btn btn-primary"><i class="fas fa-pencil-alt"></i></a>
         <a href="{{ url('tiles/'.$tile->id.'/delete') }}" class="btn btn-danger"><i class="fas fa-times"></i></a>
-        <a class="btn btn-default btn-move-right"><i class="fas fa-chevron-right"></i></a>
+        <a class="btn btn-default btn-move" dir="right"><i class="fas fa-chevron-right"></i></a>
     </div>    
     @endisset
 </div>
