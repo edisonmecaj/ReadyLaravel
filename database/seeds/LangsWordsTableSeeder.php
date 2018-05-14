@@ -328,9 +328,9 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 66,
                 'lang_id' => 1,
                 'key' => 'Language created successfully',
-                'val' => 'Lingua creata con successo',
+                'val' => 'Lingua aggiunta con successo',
                 'created_at' => '2018-05-10 11:29:13',
-                'updated_at' => '2018-05-11 07:41:50',
+                'updated_at' => '2018-05-14 18:32:45',
             ),
             35 => 
             array (
@@ -2929,18 +2929,18 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 565,
                 'lang_id' => 1,
                 'key' => 'Tile created successfully',
-                'val' => NULL,
+                'val' => 'Scheda aggiunta con successo',
                 'created_at' => '2018-05-13 21:09:00',
-                'updated_at' => '2018-05-13 21:09:00',
+                'updated_at' => '2018-05-14 18:32:45',
             ),
             324 => 
             array (
                 'id' => 566,
                 'lang_id' => 2,
                 'key' => 'Tile created successfully',
-                'val' => NULL,
+                'val' => 'Skeda u krijua me sukses',
                 'created_at' => '2018-05-13 21:09:01',
-                'updated_at' => '2018-05-13 21:09:01',
+                'updated_at' => '2018-05-13 22:22:51',
             ),
             325 => 
             array (
@@ -2956,18 +2956,18 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 568,
                 'lang_id' => 1,
                 'key' => 'Employees',
-                'val' => NULL,
+                'val' => 'Dipendenti',
                 'created_at' => '2018-05-13 21:11:29',
-                'updated_at' => '2018-05-13 21:11:29',
+                'updated_at' => '2018-05-13 22:21:58',
             ),
             327 => 
             array (
                 'id' => 569,
                 'lang_id' => 2,
                 'key' => 'Employees',
-                'val' => NULL,
+                'val' => 'Punëtoret',
                 'created_at' => '2018-05-13 21:11:29',
-                'updated_at' => '2018-05-13 21:11:29',
+                'updated_at' => '2018-05-13 22:22:51',
             ),
             328 => 
             array (
@@ -2983,18 +2983,18 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 571,
                 'lang_id' => 1,
                 'key' => 'User created successfully',
-                'val' => NULL,
+                'val' => 'User aggiunta con successo',
                 'created_at' => '2018-05-13 21:11:54',
-                'updated_at' => '2018-05-13 21:11:54',
+                'updated_at' => '2018-05-14 18:32:45',
             ),
             330 => 
             array (
                 'id' => 572,
                 'lang_id' => 2,
                 'key' => 'User created successfully',
-                'val' => NULL,
+                'val' => 'Perdoruesi u krijua me sukses',
                 'created_at' => '2018-05-13 21:11:54',
-                'updated_at' => '2018-05-13 21:11:54',
+                'updated_at' => '2018-05-13 22:22:51',
             ),
             331 => 
             array (
@@ -3010,18 +3010,18 @@ class LangsWordsTableSeeder extends Seeder
                 'id' => 574,
                 'lang_id' => 1,
                 'key' => 'Role modified successfully',
-                'val' => NULL,
+                'val' => 'Ruolo modificato con successo',
                 'created_at' => '2018-05-13 21:13:42',
-                'updated_at' => '2018-05-13 21:13:42',
+                'updated_at' => '2018-05-13 22:21:58',
             ),
             333 => 
             array (
                 'id' => 575,
                 'lang_id' => 2,
                 'key' => 'Role modified successfully',
-                'val' => NULL,
+                'val' => 'Roli u ndryshua me sukses',
                 'created_at' => '2018-05-13 21:13:42',
-                'updated_at' => '2018-05-13 21:13:42',
+                'updated_at' => '2018-05-13 22:22:51',
             ),
             334 => 
             array (
@@ -3031,6 +3031,573 @@ class LangsWordsTableSeeder extends Seeder
                 'val' => 'Role modified successfully',
                 'created_at' => '2018-05-13 21:13:42',
                 'updated_at' => '2018-05-13 21:13:42',
+            ),
+            335 => 
+            array (
+                'id' => 577,
+                'lang_id' => 1,
+                'key' => 'Create new Tile',
+                'val' => 'Crea nuova Scheda',
+                'created_at' => '2018-05-13 22:21:58',
+                'updated_at' => '2018-05-13 22:21:58',
+            ),
+            336 => 
+            array (
+                'id' => 580,
+                'lang_id' => 4,
+                'key' => 'Zone',
+                'val' => 'Zone',
+                'created_at' => '2018-05-14 18:00:05',
+                'updated_at' => '2018-05-14 18:00:05',
+            ),
+            337 => 
+            array (
+                'id' => 581,
+                'lang_id' => 1,
+                'key' => 'Zones',
+                'val' => 'Zone',
+                'created_at' => '2018-05-14 18:00:20',
+                'updated_at' => '2018-05-14 18:00:53',
+            ),
+            338 => 
+            array (
+                'id' => 582,
+                'lang_id' => 2,
+                'key' => 'Zones',
+                'val' => 'Zonat',
+                'created_at' => '2018-05-14 18:00:20',
+                'updated_at' => '2018-05-14 18:01:00',
+            ),
+            339 => 
+            array (
+                'id' => 583,
+                'lang_id' => 4,
+                'key' => 'Zones',
+                'val' => 'Zones',
+                'created_at' => '2018-05-14 18:00:20',
+                'updated_at' => '2018-05-14 18:00:20',
+            ),
+            340 => 
+            array (
+                'id' => 584,
+                'lang_id' => 1,
+                'key' => 'Cities',
+                'val' => 'Città',
+                'created_at' => '2018-05-14 18:16:45',
+                'updated_at' => '2018-05-14 18:17:00',
+            ),
+            341 => 
+            array (
+                'id' => 585,
+                'lang_id' => 2,
+                'key' => 'Cities',
+                'val' => 'Qytetet',
+                'created_at' => '2018-05-14 18:16:45',
+                'updated_at' => '2018-05-14 18:17:09',
+            ),
+            342 => 
+            array (
+                'id' => 586,
+                'lang_id' => 4,
+                'key' => 'Cities',
+                'val' => 'Cities',
+                'created_at' => '2018-05-14 18:16:45',
+                'updated_at' => '2018-05-14 18:16:45',
+            ),
+            343 => 
+            array (
+                'id' => 587,
+                'lang_id' => 1,
+                'key' => 'City',
+                'val' => 'Città',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:22:26',
+            ),
+            344 => 
+            array (
+                'id' => 588,
+                'lang_id' => 2,
+                'key' => 'City',
+                'val' => 'Qyteti',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:22:45',
+            ),
+            345 => 
+            array (
+                'id' => 589,
+                'lang_id' => 4,
+                'key' => 'City',
+                'val' => 'City',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:21:55',
+            ),
+            346 => 
+            array (
+                'id' => 590,
+                'lang_id' => 1,
+                'key' => 'Cities Management',
+                'val' => 'Gestione Città',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:22:26',
+            ),
+            347 => 
+            array (
+                'id' => 591,
+                'lang_id' => 2,
+                'key' => 'Cities Management',
+                'val' => 'Administrim i Qyteteve',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:22:45',
+            ),
+            348 => 
+            array (
+                'id' => 592,
+                'lang_id' => 4,
+                'key' => 'Cities Management',
+                'val' => 'Cities Management',
+                'created_at' => '2018-05-14 18:21:55',
+                'updated_at' => '2018-05-14 18:21:55',
+            ),
+            349 => 
+            array (
+                'id' => 593,
+                'lang_id' => 1,
+                'key' => 'Add new City',
+                'val' => 'Aggiungi nuova Città',
+                'created_at' => '2018-05-14 18:23:02',
+                'updated_at' => '2018-05-14 18:23:28',
+            ),
+            350 => 
+            array (
+                'id' => 594,
+                'lang_id' => 2,
+                'key' => 'Add new City',
+                'val' => 'Shto nje Qytet',
+                'created_at' => '2018-05-14 18:23:02',
+                'updated_at' => '2018-05-14 18:24:20',
+            ),
+            351 => 
+            array (
+                'id' => 595,
+                'lang_id' => 4,
+                'key' => 'Add new City',
+                'val' => 'Add new City',
+                'created_at' => '2018-05-14 18:23:02',
+                'updated_at' => '2018-05-14 18:23:02',
+            ),
+            352 => 
+            array (
+                'id' => 596,
+                'lang_id' => 1,
+                'key' => 'City created successfully',
+                'val' => 'Città aggiunta con successo',
+                'created_at' => '2018-05-14 18:31:11',
+                'updated_at' => '2018-05-14 18:32:45',
+            ),
+            353 => 
+            array (
+                'id' => 597,
+                'lang_id' => 2,
+                'key' => 'City created successfully',
+                'val' => 'Qyteti u shtua me sukses',
+                'created_at' => '2018-05-14 18:31:11',
+                'updated_at' => '2018-05-14 18:33:28',
+            ),
+            354 => 
+            array (
+                'id' => 598,
+                'lang_id' => 4,
+                'key' => 'City created successfully',
+                'val' => 'City created successfully',
+                'created_at' => '2018-05-14 18:31:11',
+                'updated_at' => '2018-05-14 18:31:11',
+            ),
+            355 => 
+            array (
+                'id' => 599,
+                'lang_id' => 1,
+                'key' => 'Edit City',
+                'val' => 'Modifica Città',
+                'created_at' => '2018-05-14 18:31:31',
+                'updated_at' => '2018-05-14 18:32:45',
+            ),
+            356 => 
+            array (
+                'id' => 600,
+                'lang_id' => 2,
+                'key' => 'Edit City',
+                'val' => 'Ndrysho Qytetin',
+                'created_at' => '2018-05-14 18:31:31',
+                'updated_at' => '2018-05-14 18:33:28',
+            ),
+            357 => 
+            array (
+                'id' => 601,
+                'lang_id' => 4,
+                'key' => 'Edit City',
+                'val' => 'Edit City',
+                'created_at' => '2018-05-14 18:31:31',
+                'updated_at' => '2018-05-14 18:31:31',
+            ),
+            358 => 
+            array (
+                'id' => 602,
+                'lang_id' => 1,
+                'key' => 'Zone',
+                'val' => 'Zona',
+                'created_at' => '2018-05-14 20:08:23',
+                'updated_at' => '2018-05-14 20:09:04',
+            ),
+            359 => 
+            array (
+                'id' => 603,
+                'lang_id' => 2,
+                'key' => 'Zone',
+                'val' => 'Zona',
+                'created_at' => '2018-05-14 20:08:23',
+                'updated_at' => '2018-05-14 20:09:21',
+            ),
+            360 => 
+            array (
+                'id' => 604,
+                'lang_id' => 1,
+                'key' => 'Zones Management',
+                'val' => 'Gestione Zone',
+                'created_at' => '2018-05-14 20:08:23',
+                'updated_at' => '2018-05-14 20:09:04',
+            ),
+            361 => 
+            array (
+                'id' => 605,
+                'lang_id' => 2,
+                'key' => 'Zones Management',
+                'val' => 'Administrimi i Zonave',
+                'created_at' => '2018-05-14 20:08:23',
+                'updated_at' => '2018-05-14 20:09:21',
+            ),
+            362 => 
+            array (
+                'id' => 606,
+                'lang_id' => 4,
+                'key' => 'Zones Management',
+                'val' => 'Zones Management',
+                'created_at' => '2018-05-14 20:08:24',
+                'updated_at' => '2018-05-14 20:08:24',
+            ),
+            363 => 
+            array (
+                'id' => 607,
+                'lang_id' => 1,
+                'key' => 'Edit Zone',
+                'val' => 'Modifica Zona',
+                'created_at' => '2018-05-14 20:10:29',
+                'updated_at' => '2018-05-14 20:16:45',
+            ),
+            364 => 
+            array (
+                'id' => 608,
+                'lang_id' => 2,
+                'key' => 'Edit Zone',
+                'val' => 'Ndrysho Zonen',
+                'created_at' => '2018-05-14 20:10:29',
+                'updated_at' => '2018-05-14 20:19:59',
+            ),
+            365 => 
+            array (
+                'id' => 609,
+                'lang_id' => 4,
+                'key' => 'Edit Zone',
+                'val' => 'Edit Zone',
+                'created_at' => '2018-05-14 20:10:29',
+                'updated_at' => '2018-05-14 20:10:29',
+            ),
+            366 => 
+            array (
+                'id' => 610,
+                'lang_id' => 2,
+                'key' => 'Do you want to delete the role ',
+                'val' => 'Deshironi te fshini rolin',
+                'created_at' => '2018-05-14 20:13:47',
+                'updated_at' => '2018-05-14 20:19:59',
+            ),
+            367 => 
+            array (
+                'id' => 611,
+                'lang_id' => 4,
+                'key' => 'Do you want to delete the role ',
+                'val' => 'Do you want to delete the role ',
+                'created_at' => '2018-05-14 20:13:47',
+                'updated_at' => '2018-05-14 20:13:47',
+            ),
+            368 => 
+            array (
+                'id' => 612,
+                'lang_id' => 1,
+                'key' => 'Do you want to delete the zone ',
+                'val' => 'Vuoi cancellare la zona',
+                'created_at' => '2018-05-14 20:15:14',
+                'updated_at' => '2018-05-14 20:16:45',
+            ),
+            369 => 
+            array (
+                'id' => 613,
+                'lang_id' => 2,
+                'key' => 'Do you want to delete the zone ',
+                'val' => 'Deshironi te fshini zonen',
+                'created_at' => '2018-05-14 20:15:14',
+                'updated_at' => '2018-05-14 20:19:59',
+            ),
+            370 => 
+            array (
+                'id' => 614,
+                'lang_id' => 4,
+                'key' => 'Do you want to delete the zone ',
+                'val' => 'Do you want to delete the zone ',
+                'created_at' => '2018-05-14 20:15:14',
+                'updated_at' => '2018-05-14 20:15:14',
+            ),
+            371 => 
+            array (
+                'id' => 618,
+                'lang_id' => 1,
+                'key' => 'Delete Zone',
+                'val' => 'Cancella Zona',
+                'created_at' => '2018-05-14 20:16:04',
+                'updated_at' => '2018-05-14 20:16:45',
+            ),
+            372 => 
+            array (
+                'id' => 619,
+                'lang_id' => 2,
+                'key' => 'Delete Zone',
+                'val' => 'Fshij Zonen',
+                'created_at' => '2018-05-14 20:16:04',
+                'updated_at' => '2018-05-14 20:19:59',
+            ),
+            373 => 
+            array (
+                'id' => 620,
+                'lang_id' => 4,
+                'key' => 'Delete Zone',
+                'val' => 'Delete Zone',
+                'created_at' => '2018-05-14 20:16:04',
+                'updated_at' => '2018-05-14 20:16:04',
+            ),
+            374 => 
+            array (
+                'id' => 622,
+                'lang_id' => 1,
+                'key' => 'in',
+                'val' => 'a',
+                'created_at' => '2018-05-14 20:18:49',
+                'updated_at' => '2018-05-14 20:33:08',
+            ),
+            375 => 
+            array (
+                'id' => 623,
+                'lang_id' => 2,
+                'key' => 'in',
+                'val' => 'në',
+                'created_at' => '2018-05-14 20:18:49',
+                'updated_at' => '2018-05-14 20:19:59',
+            ),
+            376 => 
+            array (
+                'id' => 624,
+                'lang_id' => 4,
+                'key' => 'in',
+                'val' => 'in',
+                'created_at' => '2018-05-14 20:18:49',
+                'updated_at' => '2018-05-14 20:18:49',
+            ),
+            377 => 
+            array (
+                'id' => 625,
+                'lang_id' => 1,
+                'key' => 'Do you want to delete the city ',
+                'val' => 'Vuoi cancellare la Città',
+                'created_at' => '2018-05-14 20:21:16',
+                'updated_at' => '2018-05-14 20:33:07',
+            ),
+            378 => 
+            array (
+                'id' => 626,
+                'lang_id' => 2,
+                'key' => 'Do you want to delete the city ',
+                'val' => 'Deshironi te fshini qytetin',
+                'created_at' => '2018-05-14 20:21:16',
+                'updated_at' => '2018-05-14 20:34:10',
+            ),
+            379 => 
+            array (
+                'id' => 627,
+                'lang_id' => 4,
+                'key' => 'Do you want to delete the city ',
+                'val' => 'Do you want to delete the city ',
+                'created_at' => '2018-05-14 20:21:16',
+                'updated_at' => '2018-05-14 20:21:16',
+            ),
+            380 => 
+            array (
+                'id' => 628,
+                'lang_id' => 1,
+                'key' => 'Delete City',
+                'val' => 'Elimina Città',
+                'created_at' => '2018-05-14 20:22:17',
+                'updated_at' => '2018-05-14 20:33:08',
+            ),
+            381 => 
+            array (
+                'id' => 629,
+                'lang_id' => 2,
+                'key' => 'Delete City',
+                'val' => 'Fshij Qytetin',
+                'created_at' => '2018-05-14 20:22:17',
+                'updated_at' => '2018-05-14 20:34:10',
+            ),
+            382 => 
+            array (
+                'id' => 630,
+                'lang_id' => 4,
+                'key' => 'Delete City',
+                'val' => 'Delete City',
+                'created_at' => '2018-05-14 20:22:17',
+                'updated_at' => '2018-05-14 20:22:17',
+            ),
+            383 => 
+            array (
+                'id' => 631,
+                'lang_id' => 1,
+                'key' => 'City deleted successfully',
+                'val' => 'Città cancellata con successo',
+                'created_at' => '2018-05-14 20:22:29',
+                'updated_at' => '2018-05-14 20:33:08',
+            ),
+            384 => 
+            array (
+                'id' => 632,
+                'lang_id' => 2,
+                'key' => 'City deleted successfully',
+                'val' => 'Qyteti u fshi me sukses',
+                'created_at' => '2018-05-14 20:22:30',
+                'updated_at' => '2018-05-14 20:34:10',
+            ),
+            385 => 
+            array (
+                'id' => 633,
+                'lang_id' => 4,
+                'key' => 'City deleted successfully',
+                'val' => 'City deleted successfully',
+                'created_at' => '2018-05-14 20:22:30',
+                'updated_at' => '2018-05-14 20:22:30',
+            ),
+            386 => 
+            array (
+                'id' => 634,
+                'lang_id' => 1,
+                'key' => 'Add new Zone',
+                'val' => 'Aggiungi nuova Zona',
+                'created_at' => '2018-05-14 20:23:42',
+                'updated_at' => '2018-05-14 20:33:08',
+            ),
+            387 => 
+            array (
+                'id' => 635,
+                'lang_id' => 2,
+                'key' => 'Add new Zone',
+                'val' => 'Shto nje Qytet',
+                'created_at' => '2018-05-14 20:23:42',
+                'updated_at' => '2018-05-14 20:34:10',
+            ),
+            388 => 
+            array (
+                'id' => 636,
+                'lang_id' => 4,
+                'key' => 'Add new Zone',
+                'val' => 'Add new Zone',
+                'created_at' => '2018-05-14 20:23:42',
+                'updated_at' => '2018-05-14 20:23:42',
+            ),
+            389 => 
+            array (
+                'id' => 637,
+                'lang_id' => 1,
+                'key' => 'Zone created successfully',
+                'val' => 'Zona creata con successo',
+                'created_at' => '2018-05-14 20:29:35',
+                'updated_at' => '2018-05-14 20:33:08',
+            ),
+            390 => 
+            array (
+                'id' => 638,
+                'lang_id' => 2,
+                'key' => 'Zone created successfully',
+                'val' => 'Zona u shtua me sukses',
+                'created_at' => '2018-05-14 20:29:35',
+                'updated_at' => '2018-05-14 20:34:10',
+            ),
+            391 => 
+            array (
+                'id' => 639,
+                'lang_id' => 4,
+                'key' => 'Zone created successfully',
+                'val' => 'Zone created successfully',
+                'created_at' => '2018-05-14 20:29:35',
+                'updated_at' => '2018-05-14 20:29:35',
+            ),
+            392 => 
+            array (
+                'id' => 640,
+                'lang_id' => 1,
+                'key' => 'Zone modified successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-14 20:38:53',
+                'updated_at' => '2018-05-14 20:38:53',
+            ),
+            393 => 
+            array (
+                'id' => 641,
+                'lang_id' => 2,
+                'key' => 'Zone modified successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-14 20:38:53',
+                'updated_at' => '2018-05-14 20:38:53',
+            ),
+            394 => 
+            array (
+                'id' => 642,
+                'lang_id' => 4,
+                'key' => 'Zone modified successfully',
+                'val' => 'Zone modified successfully',
+                'created_at' => '2018-05-14 20:38:53',
+                'updated_at' => '2018-05-14 20:38:53',
+            ),
+            395 => 
+            array (
+                'id' => 643,
+                'lang_id' => 1,
+                'key' => 'Zone deleted successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-14 20:44:04',
+                'updated_at' => '2018-05-14 20:44:04',
+            ),
+            396 => 
+            array (
+                'id' => 644,
+                'lang_id' => 2,
+                'key' => 'Zone deleted successfully',
+                'val' => NULL,
+                'created_at' => '2018-05-14 20:44:04',
+                'updated_at' => '2018-05-14 20:44:04',
+            ),
+            397 => 
+            array (
+                'id' => 645,
+                'lang_id' => 4,
+                'key' => 'Zone deleted successfully',
+                'val' => 'Zone deleted successfully',
+                'created_at' => '2018-05-14 20:44:04',
+                'updated_at' => '2018-05-14 20:44:04',
             ),
         ));
         

@@ -17,7 +17,7 @@ class Tile extends Model
     public function getValueAttribute(){
         if(!empty($this->counter)){
             try{
-                $ev = trim($this->counter, ';').';';
+                $ev = "App\\".trim(trim($this->counter, ';'), 'App\\').';';
                 return eval("return $ev");
             }
             catch(\Exception $e)

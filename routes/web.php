@@ -93,10 +93,29 @@ Route::middleware(["auth", "admin"])->prefix("tiles")->group(function(){
     Route::post('/', 'TileController@reorder');
     Route::get('/add', 'TileController@add');
     Route::post('/add', 'TileController@create');
+    Route::post('/reorder', 'TileController@reorder');
     Route::get('/{tile}/edit', 'TileController@edit');
     Route::post('/{tile}/edit', 'TileController@update');
     Route::get('/{tile}/delete', 'TileController@delete');
     Route::post('/{tile}/delete', 'TileController@destroy');
-    Route::get('/{tile}/left', 'TileController@left');
-    Route::get('/{tile}/right', 'TileController@right');
+});
+
+Route::middleware(["auth", "manager"])->prefix("cities")->group(function(){
+    Route::get('/', 'CityController@index')->name('cities');
+    Route::get('/add', 'CityController@add');
+    Route::post('/add', 'CityController@create');
+    Route::get('/{city}/edit', 'CityController@edit');
+    Route::post('/{city}/edit', 'CityController@update');
+    Route::get('/{city}/delete', 'CityController@delete');
+    Route::post('/{city}/delete', 'CityController@destroy');
+    
+    Route::middleware(["auth", "manager"])->prefix("{city}/zones")->group(function(){
+        Route::get('/', 'ZoneController@index');
+        Route::get('/add', 'ZoneController@add');
+        Route::post('/add', 'ZoneController@create');
+        Route::get('/{zone}/edit', 'ZoneController@edit');
+        Route::post('/{zone}/edit', 'ZoneController@update');
+        Route::get('/{zone}/delete', 'ZoneController@delete');
+        Route::post('/{zone}/delete', 'ZoneController@destroy');
+    });
 });

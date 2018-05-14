@@ -30,7 +30,7 @@ class UsersTableSeeder extends Seeder
                 'locale' => 'it',
                 'remember_token' => 'Uh8qItnYiJf0Rnws1p3wbCB1ZXlMTzDa7lEsOLfMKF5G9eopLsU6rhd02CFa',
                 'created_at' => '2018-04-30 16:43:36',
-                'updated_at' => '2018-05-13 22:07:24',
+                'updated_at' => '2018-05-14 20:40:08',
             ),
             1 => 
             array (

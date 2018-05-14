@@ -25,8 +25,9 @@ class TilesTableSeeder extends Seeder
                 'color' => 'danger',
                 'icon' => 'fas fa-bug',
             'counter' => 'App\\Menu::all()->count()',
+                'sort' => 0,
                 'created_at' => NULL,
-                'updated_at' => '2018-05-13 20:49:12',
+                'updated_at' => '2018-05-14 17:46:29',
             ),
             1 => 
             array (
@@ -36,8 +37,9 @@ class TilesTableSeeder extends Seeder
                 'color' => 'primary',
                 'icon' => 'fas fa-users',
             'counter' => 'App\\User::all()->count()',
+                'sort' => 1,
                 'created_at' => NULL,
-                'updated_at' => '2018-05-13 20:48:55',
+                'updated_at' => '2018-05-14 17:46:30',
             ),
             2 => 
             array (
@@ -47,8 +49,9 @@ class TilesTableSeeder extends Seeder
                 'color' => 'warning',
                 'icon' => 'fas fa-user-md',
             'counter' => 'App\\User::where(\'role_id\', \'>\', 2)->count()',
+                'sort' => 2,
                 'created_at' => '2018-05-13 21:09:00',
-                'updated_at' => '2018-05-13 21:09:00',
+                'updated_at' => '2018-05-14 17:46:30',
             ),
         ));
         

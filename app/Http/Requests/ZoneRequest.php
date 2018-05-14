@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Auth;
 
-class TileRequest extends FormRequest
+class ZoneRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,10 +25,7 @@ class TileRequest extends FormRequest
     public function rules()
     {
         return [
-            "label" => "required|string|max:15", 
-            "url" => "required|string", 
-            "color" => "required|in:default,primary,danger,info,warning",  
-            "icon" => "required|string|min:2"
+            "name" => "required|string|min:3|max:20"
         ];
     }
 }

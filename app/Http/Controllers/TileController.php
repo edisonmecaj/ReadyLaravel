@@ -14,7 +14,7 @@ class TileController extends Controller
     }
 
     public function index(){
-        $tiles = Tile::all();
+        $tiles = Tile::orderBy("sort", "asc")->get();
         return view("tiles.index", compact("tiles"));
     }
 
@@ -42,19 +42,21 @@ class TileController extends Controller
     }
 
     public function delete(Tile $tile){
-        return view("tiles.delete", compact("tile"));
+        $title = __("Delete Tile");
+        return view("tiles.delete", compact("tile", "title"));
     }
 
     public function destroy(Tile $tile){
+        $tile->Roles()->sync([]);
         $tile->delete();
         return redirect("tiles")->with("success_message", __("Tile deleted successfully"));
     }
 
-    public function left(Tile $tile){
-        $prev = Tile::where("sort", "<", $tile->sort);
-    }
-
-    public function right(Tile $tile){
-
+    public function reorder(Request $req){
+        foreach($req->sort as $r){
+            $t = Tile::find($r['id']);
+            $t->sort = $r['sort'];
+            $t->save();
+        }
     }
 }

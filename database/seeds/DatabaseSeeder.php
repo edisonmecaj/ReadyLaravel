@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call(LangsWordsTableSeeder::class);
         $this->call(TilesTableSeeder::class);
         $this->call(RolesTilesTableSeeder::class);
+        $this->call(CitiesTableSeeder::class);
+        $this->call(ZonesTableSeeder::class);
     }
 }
